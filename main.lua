@@ -13,8 +13,8 @@ function someui:CreateWindow(params)
     local MainFrame = Instance.new('Frame')
     MainFrame.Name = "Main"
     MainFrame.Parent = Gui
-    MainFrame.Size = UDim2.new(0, 525, 0, 318)
-    MainFrame.Position = UDim2.new(0.465, 0,0.429, 0)
+    MainFrame.Size = UDim2.new({0, 525}, {0, 318})
+    MainFrame.Position = UDim2.new(0.336503863, 0, 0.275485456, 0)
 
 
 
